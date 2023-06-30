@@ -1,4 +1,4 @@
-#The script will gather the following information and export it into a ZIP file
+# The script will gather the following information and export it into a ZIP file
 
 
 ```
