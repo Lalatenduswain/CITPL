@@ -1,6 +1,6 @@
 #Install-Module -Name Microsoft.PowerShell.Management
 #PowerShell -ExecutionPolicy Bypass -File
-#$scriptUrl = "https://raw.githubusercontent.com/Lalatenduswain/citpl/master/lalatendu-ps1"
+#$scriptUrl = "https://github.com/Lalatenduswain/CITPL/blob/master/lalatendu.ps1"
 #$scriptContent = (Invoke-WebRequest -Uri $scriptUrl -UseBasicParsing).Content
 #Invoke-Expression -Command $scriptContent
 
