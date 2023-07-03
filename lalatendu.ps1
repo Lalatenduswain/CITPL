@@ -1,4 +1,9 @@
 #Install-Module -Name Microsoft.PowerShell.Management
+#Get-ExecutionPolicy
+#Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+#.\lalatendu.ps1
+#certutil -hashfile <filename> MD5
+#certutil -hashfile <filename> SHA256
 #PowerShell -ExecutionPolicy Bypass -File
 #$scriptUrl = "https://raw.githubusercontent.com/Lalatenduswain/CITPL/master/lalatendu.ps1"
 #$scriptContent = (Invoke-WebRequest -Uri $scriptUrl -UseBasicParsing).Content
