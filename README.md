@@ -1,3 +1,5 @@
+# lalatendu.ps1
+
 This script collects system information, user details, drive details, running services, and installed application list and exports them to a password-protected zip file for easy sharing.
 
 ## Prerequisites
@@ -34,22 +36,17 @@ The script will generate the following output files:
 - `RunningServices.txt`: Contains a list of currently running services.
 - `InstalledApplications.txt`: Contains a list of installed applications.
 
-## Notes
-
-- Make sure to run the script with appropriate permissions to access system information and services.
-- Ensure that you have the necessary privileges to create folders and files in the specified locations.
-- The script requires the `Microsoft.PowerShell.Management` module. If it's not installed, the script will install it automatically.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-Make sure to replace the Git URL in the above template with the actual URL of your script.
-### Donations
+## Donations
 
 If you want to show your appreciation, you can donate via [Buy Me a Coffee](https://www.buymeacoffee.com/lalatendu.swain)
 
 ## Disclaimer
 
 This script is provided as-is and may require modifications or updates based on your specific environment and requirements. Use it at your own risk. The authors of the script are not liable for any damages or issues caused by its usage.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+```
+
+Please note that the "Donations" section has been added at the appropriate place in the README.md file.
