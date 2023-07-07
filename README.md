@@ -9,7 +9,7 @@ This script collects system information, user details, drive details, running se
 
 ## Usage
 
-1. Download the script: [lalatendu.ps1](https://github.com/Lalatenduswain/CITPL/blob/master/lalatendu.ps1)
+1. Download the script: [lalatendu.ps1](https://raw.githubusercontent.com/Lalatenduswain/CITPL/master/lalatendu.ps1)
 
 2. Open PowerShell and navigate to the directory where the script is saved.
 
