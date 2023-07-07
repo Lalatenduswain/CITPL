@@ -1,3 +1,8 @@
+#https://github.com/PowerShell/PowerShell/releases/download/v7.3.5/PowerShell-7.3.5-win-x64.msi
+#Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+#PowerShell -ExecutionPolicy Bypass -File "D:\lalatendu.ps1"
+
+
 #Install-Module -Name Microsoft.PowerShell.Management
 #Get-ExecutionPolicy
 #Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
@@ -17,8 +22,8 @@ if (-not (Get-Module -ListAvailable -Name $moduleName)) {
     Install-Module -Name $moduleName -Force
 }
 
-# Create SysAdmin-Lalatendu folder on Desktop if it doesn't exist
-$folderPath = "$HOME\Desktop\SysAdmin-Lalatendu"
+# Create Email-This-File-To-Lalatendu folder on Desktop if it doesn't exist
+$folderPath = "$HOME\Desktop\Email-This-File-To-Lalatendu"
 if (-not (Test-Path -Path $folderPath)) {
     New-Item -ItemType Directory -Path $folderPath | Out-Null
 }
@@ -56,12 +61,12 @@ $apps = Get-CimInstance -ClassName Win32_Product | Select-Object Name, Version, 
 $apps | Format-Table -AutoSize | Out-File -FilePath $installedAppsPath
 
 # Create password-protected zip file
-$zipPath = "$HOME\Desktop\SysAdmin-Lalatendu.zip"
+$zipPath = "$HOME\Desktop\Email-This-File-To-Lalatendu.zip"
 $sourcePath = $folderPath
 $zipCommand = "Compress-Archive -Path `"$sourcePath\*`" -DestinationPath `"$zipPath`" -CompressionLevel Optimal -Force"
 Invoke-Expression -Command $zipCommand
 
-# Delete SysAdmin-Lalatendu folder
+# Delete Email-This-File-To-Lalatendu folder
 Remove-Item -Path $folderPath -Force -Recurse
 
 # Display a success message
