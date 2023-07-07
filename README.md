@@ -1,4 +1,4 @@
-##This script collects system information, user details, drive details, running services, and installed application list and exports them to a password-protected zip file for easy sharing.
+#This script collects system information, user details, drive details, running services, and installed application list and exports them to a password-protected zip file for easy sharing.
 
 ## Prerequisites
 
