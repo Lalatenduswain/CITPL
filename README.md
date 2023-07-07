@@ -46,3 +46,10 @@ This project is licensed under the [MIT License](LICENSE).
 ```
 
 Make sure to replace the Git URL in the above template with the actual URL of your script.
+### Donations
+
+If you want to show your appreciation, you can donate via [Buy Me a Coffee](https://www.buymeacoffee.com/lalatendu.swain)
+
+## Disclaimer
+
+This script is provided as-is and may require modifications or updates based on your specific environment and requirements. Use it at your own risk. The authors of the script are not liable for any damages or issues caused by its usage.
