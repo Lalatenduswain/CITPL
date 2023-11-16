@@ -3,7 +3,7 @@ This script collects system information, user details, drive details, running se
 ## Prerequisites
 
 - PowerShell 7.3.5 or later version is recommended. You can download it from [here](https://github.com/PowerShell/PowerShell/releases/download/v7.3.9/PowerShell-7.3.9-win-x64.msi).
-- #https://github.com/PowerShell/PowerShell/releases/download/v7.3.5/PowerShell-7.3.5-win-x64.msi
+- #https://github.com/PowerShell/PowerShell/releases/download/v7.3.9/PowerShell-7.3.9-win-x64.msi
 - #Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 - #PowerShell -ExecutionPolicy Bypass -File "D:\lalatendu.ps1"
 
