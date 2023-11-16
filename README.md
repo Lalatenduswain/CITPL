@@ -6,6 +6,7 @@ This script collects system information, user details, drive details, running se
 - #https://github.com/PowerShell/PowerShell/releases/download/v7.3.9/PowerShell-7.3.9-win-x64.msi
 - #Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 - #PowerShell -ExecutionPolicy Bypass -File "D:\lalatendu.ps1"
+- - #http://**.98.29.242/ocsinventory
 
 ## Usage
 
