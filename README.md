@@ -17,16 +17,11 @@ This script collects system information, user details, drive details, running se
 3. Run the following command to set the execution policy:
    ```powershell
    Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
-   ```
-
-4. Run the script using the following command:
-   ```powershell
    PowerShell -ExecutionPolicy Bypass -File "D:\lalatendu.ps1"
    ```
+4. The script will collect the necessary information and export it to a password-protected zip file.
 
-5. The script will collect the necessary information and export it to a password-protected zip file.
-
-6. After completion, the script will display a success message, and the zip file will be saved on your desktop with the name "Email-This-File-To-Lalatendu.zip".
+5. After completion, the script will display a success message, and the zip file will be saved on your desktop with the name "Email-This-File-To-Lalatendu.zip".
 
 ## Output Files
 
@@ -49,4 +44,3 @@ This script is provided as-is and may require modifications or updates based on 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
