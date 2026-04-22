@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Tailscale IPN]
+"AllowNonAdminUsers"=dword:00000001
+"HideTrayIcon"=dword:00000001
